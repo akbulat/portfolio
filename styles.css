@@ -55,7 +55,7 @@ body {
     border: 2px solid #444;
     border-radius: 4px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 /* Стили для контейнера интерактивных карт */
 .interactive-maps {
@@ -73,4 +73,5 @@ body {
     width: 100%; /* Ширина iframe относительно контейнера */
     height: auto; /* Высота будет установлена автоматически через padding-bottom */
     aspect-ratio: 16 / 9; /* Соотношение сторон 16:9 */
+    margin-top: 20px;
 }
