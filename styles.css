@@ -16,10 +16,11 @@ body {
     margin: auto;
 }
 /* Стили для контейнера слайдера с соотношением сторон 16:9 */
+/* Обновите .slides-container, если необходимо */
 .slides-container {
     position: relative;
-    width: 100%; /* Максимальная ширина слайдера */
-    padding-top: 56.25%; /* Паддинг сверху для соотношения 16:9 (9 / 16 = 0.5625) */
+    width: 100%;
+    padding-top: 56.25%; /* Оставьте это значение для соотношения 16:9 */
 }
 /* Стили для слайдов внутри контейнера */
 .slide {
@@ -31,7 +32,6 @@ body {
 }
 .slide iframe {
     width: 100%;
-    height: 100vh;
     border: none;
 }
 .slide-btn {
@@ -67,11 +67,10 @@ body {
     gap: 20px; /* Пространство между картами */
 }
 
-/* Стили для iframe карт */
+/* Убедитесь, что .interactive-maps iframe использует aspect-ratio для высоты */
 .interactive-maps iframe {
-    border: none; /* Убираем рамку */
-    width: 100%; /* Ширина iframe относительно контейнера */
-    height: auto; /* Высота будет установлена автоматически через padding-bottom */
-    aspect-ratio: 16 / 9; /* Соотношение сторон 16:9 */
-    margin-top: 20px;
+    border: none;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-top: 0; /* Убедитесь, что отступ сверху равен нулю */
 }
