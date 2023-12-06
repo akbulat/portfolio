@@ -3,42 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мое портфолио</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #333; /* Темный фон всей страницы */
-            color: #fff; /* Белый цвет текста */
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #222; /* Чуть более светлый темный фон для заголовка */
-            padding: 10px 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-        }
-        .iframe-container {
-            margin: 20px 0;
-            border: 2px solid #444; /* Граница вокруг iframe */
-            border-radius: 4px; /* Скругление углов */
-        }
-        iframe {
-            width: 100%;
-            height: 500px; /* Высота iframe */
-            border: none; /* Убрать стандартную рамку iframe */
-        }
-        .description {
-            background-color: #222; /* Фон для описания */
-            border: 2px solid #444; /* Граница вокруг описания */
-            border-radius: 4px; /* Скругление углов */
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>Фазлиев Акбулат aka R06LoXXX_k1d</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -46,31 +12,15 @@
     <h1>Добро пожаловать в мое портфолио</h1>
 </div>
 
-<div class="container">
-    <div class="iframe-container">
-        <iframe src="https://ee-akfazlief.projects.earthengine.app/view/gas-map-of-russia" title="Gas Map of Russia"></iframe>
+<div id="app-slider">
+    <div class="slides-container">
+        <!-- Слайды с вашими приложениями -->
     </div>
-    <div class="description">
-        <h2>Отображение данных газов Sentinel-5P для России</h2>
-        <p>Это приложение позволяет визуализировать данные о концентрации различных газов, полученные с помощью спутника Sentinel-5P.</p>
-    </div>
-
-    <div class="iframe-container">
-        <iframe src="https://ee-akfazlief.projects.earthengine.app/view/hogweed-analyst" title="Hogweed Analyst"></iframe>
-    </div>
-    <div class="description">
-        <h2>Анализатор Борщевика</h2>
-        <p>Приложение для анализа распространения борщевика на основе данных дистанционного зондирования Земли.</p>
-    </div>
-
-    <div class="iframe-container">
-        <iframe src="https://ee-akfazlief.projects.earthengine.app/view/tjumensuenkoweather" title="Tyumen Weather Analysis"></iframe>
-    </div>
-    <div class="description">
-        <h2>Анализ Погоды в Тюмени</h2>
-        <p>Инструмент для визуализации и анализа погодных условий в регионе Тюмень с использованием данных метеостанций.</p>
-    </div>
+    <button class="slide-btn prev-slide">&#10094;</button>
+    <button class="slide-btn next-slide">&#10095;</button>
 </div>
+
+<script src="slider.js"></script>
 
 </body>
 </html>
