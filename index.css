@@ -455,6 +455,7 @@ cursor: pointer;
   box-sizing: border-box;
   width: 216px;
   height: 42px;
+  margin-top: 255px;
 }
 .arcgis1 {
   position: relative;
