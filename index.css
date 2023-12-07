@@ -1,14 +1,18 @@
 .b,
 .geodata-spatial-data {
   position: absolute;
-  top: 166px; /* или другое значение, если необходимо */
+  top: 0;
   left: calc(50% - 244px);
+  font-size: var(--font-size-21xl);
+  margin-bottom: 30px; 
+}
+.geodata-spatial-data {
+  top: 166px;
   font-size: var(--font-size-xl);
   font-weight: 300;
   display: inline-block;
   width: 360px;
   height: 155px;
-  margin-bottom: 50px; /* Увеличенный нижний отступ */
 }
 
 .geodata-ingeneer {
