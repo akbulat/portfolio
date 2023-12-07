@@ -328,7 +328,7 @@ cursor: pointer;
 .experience-child {
   top: 450px;
   position: absolute;
-  top: 338px;
+
   left: 57px;
   border-radius: var(--br-8xs);
   background-color: var(--color-gray-200);
@@ -437,7 +437,7 @@ cursor: pointer;
 }
 .geodata-spatial-data3 {
   position: absolute;
-  top: 228px;
+  top: 165px;
   left: calc(50% - 539.5px);
   font-size: var(--font-size-xl);
   font-weight: 300;
@@ -684,6 +684,6 @@ cursor: pointer;
   }
 }
 .Gis__RUSGIS {
-  margin-top: 20px;
-  margin-bottom: 50px;
+  position: relative;
+  top: -65px;
 }
