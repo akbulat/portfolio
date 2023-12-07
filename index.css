@@ -346,9 +346,8 @@ cursor: pointer;
   text-align: center;
 }
 .experience-item {
-  top: 450px;
+  top: 338px;
   position: absolute;
-  top: 411px;
   left: 57px;
   border-radius: var(--br-8xs);
   background-color: var(--color-gray-200);
