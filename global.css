@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-jetbrains-mono: "JetBrains Mono";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gray-100: #202020;
+  --color-gray-200: rgba(0, 0, 0, 0);
+  --color-black: #000;
+  --color-darkslategray: #343434;
+  --color-orange: #ffa012;
+  --color-cornflowerblue: #4faaff;
+  --color-lime: #00ff47;
+  --color-mediumblue: #0047ff;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+}

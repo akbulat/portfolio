@@ -1,0 +1,675 @@
+.b,
+.geodata-spatial-data {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 244px);
+  font-size: var(--font-size-21xl);
+}
+.geodata-spatial-data {
+  top: 166px;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  display: inline-block;
+  width: 360px;
+  height: 155px;
+}
+.geodata-ingeneer {
+  position: absolute;
+  top: 74px;
+  left: calc(50% - 244px);
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  color: var(--color-darkslategray);
+}
+.left-block-child,
+.left-block-inner,
+.left-block-item {
+  position: absolute;
+  top: 361px;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.left-block-inner,
+.left-block-item {
+  top: 424px;
+}
+.left-block-inner {
+  top: 487px;
+}
+.div,
+.div1 {
+  font-weight: 300;
+  text-align: center;
+}
+.div {
+  position: absolute;
+  top: 366px;
+  left: 58px;
+}
+.div1 {
+  top: 429px;
+  left: 29px;
+}
+.div1,
+.div2,
+.line-div {
+  position: absolute;
+}
+.div2 {
+  top: 492px;
+  left: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+.line-div {
+  top: -0.5px;
+  left: 487.5px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 553px;
+}
+.left-block,
+.left-block1 {
+  position: absolute;
+  top: 4817px;
+  left: calc(50% - 776px);
+  width: 488px;
+  height: 552px;
+  display: none;
+}
+.left-block1 {
+  top: 3711px;
+}
+.projectsbutton-child {
+  cursor: pointer;
+  border: 1px solid var(--color-cornflowerblue);
+  padding: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+}
+.div6 {
+  height: 42px;
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: var(--font-jetbrains-mono);
+  color: var(--color-black);
+}
+.projectsbutton {
+  cursor: pointer;
+  position: absolute;
+  top: 361px;
+  left: 0;
+  width: 216px;
+  height: 42px;
+  text-align: center;
+}
+.experiencebutton-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+}
+.div7 {
+  position: relative;
+  top: 6%;
+  left: center;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: var(--font-jetbrains-mono);
+  color: var(--color-black);
+  text-align: center;
+}
+.experiencebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 424px;
+  left: 0;
+  width: 216px;
+  height: 42px;
+}
+.div8 {
+  position: relative;
+  top: 6%;
+  left: center;
+  font-weight: 300;
+}
+.contactbutton {
+cursor: pointer; 
+ position: absolute;
+  top: 487px;
+  left: 0;
+  width: 216px;
+  height: 42px;
+  text-align: center;
+}
+.left-block2 {
+  display: flex;
+  position: relative;
+  width: 488px;
+  height: 552px;
+}
+.fixedside {
+  position: fixed;
+  top: 15%; /* Отступ сверху */
+  left: 5%; /* Отступ слева */
+  max-height: 70%; /* Примерная высота, можно изменить */
+  overflow: hidden;
+  display: flex;
+}
+.sentinel-5p {
+  position: absolute;
+  top: 693px;
+  left: calc(50% - 537.5px);
+  display: inline-block;
+  font-weight: 300;
+  width: 956px;
+  height: 77px;
+}
+.gas-map-of {
+  position: absolute;
+  top: 163px;
+  left: 55px;
+  font-size: var(--font-size-13xl);
+  text-decoration: underline;
+  color: var(--color-black);
+  text-align: center;
+}
+.ndvi-hsi {
+  position: absolute;
+  top: 1432px;
+  left: calc(50% - 537.5px);
+  display: inline-block;
+  font-weight: 300;
+  width: 956px;
+  height: 77px;
+}
+.hogweed-analyst {
+  position: absolute;
+  top: 852px;
+  left: 55px;
+  font-size: var(--font-size-13xl);
+  text-decoration: underline;
+  color: var(--color-black);
+  text-align: center;
+}
+.noaa,
+.projects-child {
+  position: absolute;
+  width: 956px;
+}
+.projects-child {
+  top: 912px;
+  left: 55px;
+  background-color: #d9d9d9;
+  height: 449px;
+}
+.noaa {
+  top: 2121px;
+  left: calc(50% - 537.5px);
+  display: inline-block;
+  font-weight: 300;
+  height: 77px;
+}
+.tyumen-weather-analysis {
+  position: absolute;
+  top: 1591px;
+  left: 55px;
+  font-size: var(--font-size-13xl);
+  text-decoration: underline;
+  color: var(--color-black);
+}
+.hexgrid-map,
+.projects-item {
+  position: absolute;
+  width: 956px;
+}
+.projects-item {
+  top: 1651px;
+  left: 55px;
+  height: 449px;
+  object-fit: cover;
+}
+.hexgrid-map {
+  top: 2810px;
+  left: calc(50% - 537.5px);
+  display: inline-block;
+  font-weight: 300;
+  height: 77px;
+}
+.hexgrid-map1 {
+  position: absolute;
+  top: 2280px;
+  left: 55px;
+  font-size: var(--font-size-13xl);
+  text-decoration: underline;
+  color: var(--color-black);
+}
+.projects-inner {
+  position: absolute;
+  top: 2340px;
+  left: 55px;
+  width: 956px;
+  height: 449px;
+  object-fit: cover;
+}
+.geocoded-map-by {
+  position: absolute;
+  top: 3499px;
+  left: calc(50% - 537.5px);
+  display: inline-block;
+  font-weight: 300;
+  width: 956px;
+  height: 77px;
+}
+.geocoded-map-by1 {
+  position: absolute;
+  top: 2969px;
+  left: 55px;
+  font-size: var(--font-size-13xl);
+  text-decoration: underline;
+  color: var(--color-black);
+}
+.image-1-icon,
+.projects-child1,
+.rectangle-icon {
+  position: absolute;
+  top: 3029px;
+  left: 55px;
+  width: 956px;
+  height: 449px;
+  object-fit: cover;
+}
+.image-1-icon,
+.projects-child1 {
+  top: 912px;
+  height: 499px;
+}
+.projects-child1 {
+  top: 223px;
+  height: 449px;
+}
+.projects {
+  position: relative;
+  width: 1189px;
+  height: 3677px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+}
+.experience-child {
+  position: absolute;
+  top: 338px;
+  left: 57px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-lime);
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.arcgis {
+  position: relative;
+  top: 5px;
+  left: center;
+  font-weight: 300;
+  text-align: center;
+}
+.experience-item {
+  position: absolute;
+  top: 411px;
+  left: 57px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid #ff6464;
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.mapbox {
+  position: relative;
+  top: 5px;
+  left: center;
+  font-weight: 300;
+  text-align: center;
+}
+.experience-inner {
+  position: absolute;
+  top: 338px;
+  left: 315px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.gee {
+  position: relative;
+  top: 5px;
+  left: center;
+  font-weight: 300;
+  text-align: center;
+}
+.experience-child1 {
+  position: absolute;
+  top: 338px;
+  left: 573px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.python-310 {
+  position: relative;
+  top: 5px;
+  left: center;
+  font-weight: 300;
+  text-align: center;
+}
+.b3 {
+  top: 142px;
+  left: 55px;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  align-items: flex-end;
+  width: 196px;
+}
+.b3,
+.div9,
+.i {
+  position: absolute;
+}
+.div9 {
+  top: 142px;
+  left: 315px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+}
+.i {
+  top: 92px;
+  left: 55px;
+  font-weight: 300;
+  color: var(--color-darkslategray);
+}
+.experience-child2 {
+  position: absolute;
+  top: 166.5px;
+  left: 249.5px;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 47px;
+  height: 3px;
+}
+.geodata-spatial-data3 {
+  position: absolute;
+  top: 228px;
+  left: calc(50% - 539.5px);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  display: inline-block;
+  width: 956px;
+  height: 92px;
+}
+.experience-child3 {
+  position: absolute;
+  top: 781px;
+  left: 57px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-lime);
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.arcgis1 {
+  position: relative;
+  top: 5px;
+  left: center;
+  font-weight: 300;
+  text-align: center;
+}
+.experience-child4 {
+  position: absolute;
+  top: 781px;
+  left: 315px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.gee1 {
+  position: relative;
+  top: 5px;
+  left: center;
+  font-weight: 300;
+  text-align: center;
+}
+.experience-child5 {
+  position: absolute;
+  top: 781px;
+  left: 573px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 216px;
+  height: 42px;
+}
+.python-3101 {
+  position: relative;
+  top: 5px;
+  left: 2px;
+  font-weight: 300;
+  text-align: center;
+}
+.b4 {
+  top: 585px;
+  left: 55px;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  align-items: flex-end;
+  width: 196px;
+}
+.b4,
+.div10,
+.i1 {
+  position: absolute;
+}
+.div10 {
+  top: 585px;
+  left: 315px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+}
+.i1 {
+  top: 535px;
+  left: 55px;
+  font-weight: 300;
+  color: var(--color-darkslategray);
+}
+.experience-child6 {
+  position: absolute;
+  top: 609.5px;
+  left: 249.5px;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 47px;
+  height: 3px;
+}
+.geodata-spatial-data4 {
+  position: absolute;
+  top: 671px;
+  left: calc(50% - 539.5px);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  display: inline-block;
+  width: 956px;
+  height: 92px;
+}
+.b5,
+.experience {
+  color: var(--color-black);
+}
+.experience {
+  position: relative;
+  width: 1189px;
+  height: 1074px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.b5 {
+  position: absolute;
+  top: 88px;
+  left: 56px;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  align-items: flex-end;
+  width: 196px;
+}
+.githubcom,
+.hhru,
+.tmer06loxxx-k1d {
+  position: absolute;
+  top: 245px;
+  left: 56px;
+  text-decoration: underline;
+  color: inherit;
+}
+.githubcom,
+.hhru {
+  top: 359px;
+}
+.githubcom {
+  top: 473px;
+}
+.contact {
+  position: relative;
+  width: 1190px;
+  height: 834px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--color-gray-100);
+}
+.scrollableside {
+    margin-left: 30%; /* Смещение правого div на ширину левого div */
+width: 70%; /* Оставшаяся ширина экрана */
+height: auto;
+  max-height: 85%; /* Примерная высота, можно изменить */
+  overflow-y: auto;
+  display: flex;
+  flex-flow: column;
+  color: var(--color-darkslategray);
+  position: fixed;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.main {
+  display: flex;
+  width: 70%; /* Или любой другой процент/фиксированная ширина */
+  max-width: 1200px; /* Максимальная ширина, если требуется */
+  display: flex;
+  margin-right: 10%;
+  position: relative;
+  background-color: #fff;
+  overflow-y: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-jetbrains-mono);
+
+}
+
+/* Содержимое index.css, полученное от вас, без изменений ... */
+
+/* Дополнительные правила CSS для реализации требуемых функций */
+/* Fixed Side Element */
+.fixedside {
+position: fixed;
+width: 30%;
+height: 100vh;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 5%;
+  overflow-y: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.scrollableside a {
+  cursor: pointer; /* Делает курсор руки при наведении на ссылки */
+  text-decoration: underline; /* Подчеркивание ссылок для визуального отличия */
+  color: #000000; /* Стандартный цвет ссылок */
+}
+
+/* Hover Effects */
+.projectsbutton-child:hover,
+.experiencebutton-child:hover,
+.contactbutton-child:hover
+{
+cursor: pointer;
+  background-color:cornflowerblue ;
+}
+.experience-child:hover,
+.experience-child3:hover
+{
+	cursor: pointer;
+  background-color: lime;
+}
+.projectsbutton-child:hover,
+.experience-inner:hover,
+.experience-child4:hover
+{
+cursor: pointer;
+  background-color: cornflowerblue;
+}
+.experience-child1:hover,
+.experience-child5:hover
+{
+cursor: pointer;
+  background-color: orange;
+}
+.experience-item:hover
+{
+cursor: pointer;
+  background-color: #ff6464;
+}
+@media (max-width: 768px) {
+  .left-side, .right-side {
+    position: static; /* Отменяем фиксированное позиционирование */
+    width: 100%; /* Блоки занимают всю ширину */
+    margin: 0; /* Убираем маржины */
+  }
+}
