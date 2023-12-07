@@ -473,6 +473,7 @@ cursor: pointer;
   box-sizing: border-box;
   width: 216px;
   height: 42px;
+  margin-top: 255px;
 }
 .gee1 {
   position: relative;
@@ -491,6 +492,7 @@ cursor: pointer;
   box-sizing: border-box;
   width: 216px;
   height: 42px;
+  margin-top: 255px;
 }
 .python-3101 {
   position: relative;
@@ -506,6 +508,7 @@ cursor: pointer;
   display: flex;
   align-items: flex-end;
   width: 196px;
+  
 }
 .b4,
 .div10,
@@ -532,6 +535,7 @@ cursor: pointer;
   box-sizing: border-box;
   width: 47px;
   height: 3px;
+  margin-top: 255px;
 }
 .geodata-spatial-data4 {
   position: absolute;
@@ -542,6 +546,7 @@ cursor: pointer;
   display: inline-block;
   width: 956px;
   height: 92px;
+  margin-top: 128px;
 }
 .b5,
 .experience {
@@ -588,7 +593,7 @@ cursor: pointer;
   color: var(--color-gray-100);
 }
 .scrollableside {
-    margin-left: 30%; /* Смещение правого div на ширину левого div */
+    margin-left: 50%; /* Смещение правого div на ширину левого div */
 width: 70%; /* Оставшаяся ширина экрана */
 height: auto;
   max-height: 85%; /* Примерная высота, можно изменить */
