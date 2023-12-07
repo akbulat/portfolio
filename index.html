@@ -1,58 +1,168 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akbulat Fazliev / R06LoXXX_k1d</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-<div class="header">
-    <h1>Akbulat Fazliev / R06LoXXX_k1d</h1>
-</div>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains Mono:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="fixedside">
+        <div class="left-block2">
+          <b class="b">Акбулат Фазлиев </b>
+          <div class="geodata-spatial-data">
+            Я занимаюсь geodata, spatial data, analysing, development of
+            interactive maps, dynamic changes, python development, interesting
+            in machine learning and AI powered tools.
+          </div>
+          <i class="geodata-ingeneer">geodata ingeneer</i>
+<div class="projectsbutton" onclick="scrollToSection('projects')">
+            <button class="projectsbutton-child"><div class="div6">Проекты</div></button>
 
-<div id="app-slider">
-    <div class="slides-container">
-        <!-- Слайд 1 -->
-        <div class="slide">
-            <iframe src="https://ee-akfazlief.projects.earthengine.app/view/gas-map-of-russia" title="Gas Map of Russia"></iframe>
-            <div class="description">
-                <h3>Gas Map of Russia</h3>
-                <p>Динамическая интерактивная карта газов на основе данных Sentinel-5P. Приложение так же создает графики динамики концентрации газов на выбранную территорию за месяц до выбранной даты.</p>
-            </div>
+          </div>
+          <button class="experiencebutton" onclick="scrollToSection('experience')">
+            <div class="experiencebutton-child"><div class="div6">Опыт</div></div>
+
+          </button>
+          <div class="contactbutton" onclick="scrollToSection('contact')">
+            <button class="projectsbutton-child">            <div class="div6">Контакты</div></button>
+
+          </div>
+          <div class="line-div"></div>
         </div>
-        <!-- Слайд 2 -->
-        <div class="slide">
-            <iframe src="https://ee-akfazlief.projects.earthengine.app/view/hogweed-analyst" title="Hogweed Analyst"></iframe>
-            <div class="description">
-                <h3>Hogweed Analyst</h3>
-                <p>Создание слоя-маски для потенциальных очагов борщевика. Методика заключается в подборе значений NDVI и HSI (яркость) для Вашей области интереса.</p>
-            </div>
+      </div>
+      <div class="scrollableside">
+        <div class="projects" id="projects">
+          <i class="sentinel-5p"
+            >Динамическая интерактивная карта газов на основе данных
+            Sentinel-5P. Приложение так же создает графики динамики концентрации
+            газов на выбранную территорию за месяц до выбранной даты.</i
+          >
+          <a
+            class="gas-map-of"
+            href="https://ee-akfazlief.projects.earthengine.app/view/gas-map-of-russia"
+            target="_blank"
+            >Gas Map of Russia</a
+          >
+          <i class="ndvi-hsi"
+            >Создание слоя-маски для потенциальных очагов борщевика. Методика
+            заключается в подборе значений NDVI и HSI (яркость) для Вашей
+            области интереса.</i
+          >
+          <a
+            class="hogweed-analyst"
+            href="https://ee-akfazlief.projects.earthengine.app/view/hogweed-analyst"
+            target="_blank"
+            >Hogweed Analyst</a
+          >
+          <div class="projects-child"></div>
+          <i class="noaa"
+            >Прогноз погоды по данным NOAA на территорию Тюменской области.</i
+          >
+          <a
+            class="tyumen-weather-analysis"
+            href="https://ee-akfazlief.projects.earthengine.app/view/tjumensuenkoweather"
+            target="_blank"
+            >Tyumen Weather Analysis</a
+          >
+          <img class="projects-item" alt="" src="./public/rectangle-6@2x.png" />
+
+          <i class="hexgrid-map">Описание для Hexgrid Map</i>
+          <a
+            class="hexgrid-map1"
+            href="https://akbulat.github.io/portfolio/hexgrid_map_cluster_coloring.html"
+            target="_blank"
+            >Hexgrid Map</a
+          >
+          <img
+            class="projects-inner"
+            alt=""
+            src="./public/rectangle-7@2x.png"
+          />
+
+          <i class="geocoded-map-by">Описание для Geocoded Map by Sectors</i>
+          <a
+            class="geocoded-map-by1"
+            href="https://akbulat.github.io/portfolio/geocoded_map_by_sectors2.html"
+            target="_blank"
+            >Geocoded Map by Sectors</a
+          >
+          <img
+            class="rectangle-icon"
+            alt=""
+            src="./public/rectangle-8@2x.png"
+          />
+
+          <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+          <img
+            class="projects-child1"
+            alt=""
+            src="./public/rectangle-4@2x.png"
+          />
         </div>
-        <!-- Слайд 3 -->
-        <div class="slide">
-            <iframe src="https://ee-akfazlief.projects.earthengine.app/view/tjumensuenkoweather" title="Tyumen Weather Analysis"></iframe>
-            <div class="description">
-                <h3>Tyumen Weather Analysis</h3>
-                <p>Прогноз погоды по данным NOAA на территорию Тюменской области.</p>
-            </div>
+        <div class="experience" id="experience">
+          <div class="experience-child">          <div class="arcgis">ArcGIS</div></div>
+
+          <div class="experience-item">          <div class="mapbox">Mapbox</div></div>
+
+          <div class="experience-inner">          <div class="gee">GEE</div></div>
+
+          <div class="experience-child1">          <div class="python-310">Python 3.10</div></div>
+
+          <b class="b3">Должность</b>
+          <div class="div9">компания</div>
+          <i class="i">2022 - настоящее время</i>
+          <div class="experience-child2"></div>
+          <div class="geodata-spatial-data3">
+            Моими задачами были geodata, spatial data, analysing, development of
+            interactive maps, dynamic changes, python development, interesting
+            in machine learning and AI powered tools. geodata, spatial
+          </div>
+          <div class="experience-child3">          <div class="arcgis1">ArcGIS</div></div>
+
+          <div class="experience-child4">       <div class="gee1">GEE</div></div>
+  
+          <div class="experience-child5"><div class="python-3101">Python 3.10</div></div>
+          
+          <b class="b4">Должность</b>
+          <div class="div10">компания</div>
+          <i class="i1">2017 - 2022</i>
+          <div class="experience-child6"></div>
+          <div class="geodata-spatial-data4">
+            Моими задачами были geodata, spatial data, analysing, development of
+            interactive maps, dynamic changes, python development, interesting
+            in machine learning and AI powered tools. geodata, spatial
+          </div>
         </div>
+        <div class="contact" id="contact">
+          <b class="b5">Контакты</b>
+          <a
+            class="tmer06loxxx-k1d"
+            href="https://t.me/R06LoXXX_k1D"
+            target="_blank"
+            >t.me/R06LoXXX_k1D</a
+          >
+          <a class="hhru" href="https://hh.ru/" target="_blank">hh.ru</a>
+          <a class="githubcom" href="https://github.com/akbulat" target="_blank"
+            >github.com</a
+          >
+        </div>
+      </div>
     </div>
-    <button class="slide-btn prev-slide">&#10094;</button>
-    <button class="slide-btn next-slide">&#10095;</button>
-</div>
-
-<div class="interactive-maps">
-    <iframe src="hexgrid_map_cluster_coloring.html" title="Hexgrid Map"></iframe>
-    <!-- Описание для hexgrid_map_cluster_coloring.html -->
-    <div class="description">Описание для Hexgrid Map</div>
-    <iframe src="geocoded_map_by_sectors2.html" title="Geocoded Map by Sectors"></iframe>
-    <!-- Описание для geocoded_map_by_sectors2.html -->
-    <div class="description">Описание для Geocoded Map by Sectors</div>
-</div>
-
-<script src="slider.js"></script>
-
-</body>
+    <script>
+        // Функция для плавной прокрутки к указанной секции
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+  </body>
 </html>
