@@ -326,6 +326,7 @@ cursor: pointer;
   font-size: var(--font-size-xl);
 }
 .experience-child {
+  top: 450px;
   position: absolute;
   top: 338px;
   left: 57px;
@@ -337,6 +338,7 @@ cursor: pointer;
   height: 42px;
 }
 .arcgis {
+  top: 450px;	
   position: relative;
   top: 5px;
   left: center;
@@ -344,6 +346,7 @@ cursor: pointer;
   text-align: center;
 }
 .experience-item {
+  top: 450px;
   position: absolute;
   top: 411px;
   left: 57px;
@@ -355,6 +358,7 @@ cursor: pointer;
   height: 42px;
 }
 .mapbox {
+  top: 450px;
   position: relative;
   top: 5px;
   left: center;
