@@ -436,7 +436,7 @@ cursor: pointer;
 }
 .geodata-spatial-data3 {
   position: absolute;
-  top: 165px;
+  top: 200px;
   left: calc(50% - 539.5px);
   font-size: var(--font-size-xl);
   font-weight: 300;
